@@ -1,7 +1,7 @@
 define([], function(){
   return{
     init: function(){
-      console.log('menu');
+      console.log('navugation exists');
     }
   };
 })

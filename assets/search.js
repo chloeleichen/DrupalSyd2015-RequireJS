@@ -1,7 +1,7 @@
 define([], function(){
   return{
     init: function(){
-      console.log('search');
+      console.log('search form loaded');
     }
   };
 })

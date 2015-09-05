@@ -1,8 +1,13 @@
-requirejs.config({
-  baseUrl: 'assets',
-  paths:{}
-});
+(function(){
+	requirejs.config({
+	  baseUrl: 'assets',
+	  paths:{}
+	});
 
-requirejs(['main'], function(obj){
-  obj.init();
-});
+	requirejs(['main']);
+
+	// requirejs(['main'], function(obj){
+	//   obj.init();
+	// });
+
+})();
